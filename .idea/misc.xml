@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Study/5semester/Android/javalabs/lab1/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Study/5semester/Android/javalabs/labs/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Study/5semester/Android/javalabs/labs/app/src/main/res/layout/fragment_input.xml" value="0.25" />
+        <entry key="..\:/Study/5semester/Android/javalabs/labs/app/src/main/res/layout/fragment_ooutput.xml" value="0.23055555555555557" />
+        <entry key="..\:/Study/5semester/Android/javalabs/labs/app/src/main/res/layout/fragment_output.xml" value="0.25" />
       </map>
     </option>
   </component>
