@@ -41,9 +41,18 @@
         android:id="@+id/buttonResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="See Result"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Save Result"
+        app:layout_constraintEnd_toStartOf="@+id/buttonList"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results List"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonResult"
         app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
