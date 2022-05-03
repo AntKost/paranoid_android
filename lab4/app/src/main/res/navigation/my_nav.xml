@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/resFragment">
+
+    <fragment
+        android:id="@+id/resFragment"
+        android:name="com.example.lab4.ResFragment"
+        android:label="Resource"
+        tools:layout="@layout/fragment_res" />
+    <fragment
+        android:id="@+id/storageFragment"
+        android:name="com.example.lab4.StorageFragment"
+        android:label="Storage"
+        tools:layout="@layout/fragment_storage" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.lab4.WebFragment"
+        android:label="Web"
+        tools:layout="@layout/fragment_web" />
+</navigation>
